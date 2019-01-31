@@ -20,6 +20,8 @@ class Postimies < Sinatra::Base
   end
 
   post '/slack/event' do
+    return @request_payload["challenge"] if @request_payload["challenge"]
+
     slack_event = @request_payload["event"]
     halt(200) if slack_event["edited"]
     user = slack_event["user"]
