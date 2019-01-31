@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bson (4.4.2)
+    byebug (10.0.2)
+    chronic (0.10.2)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    mongo (2.6.4)
+      bson (>= 4.3.0, < 5.0.0)
+    multi_xml (0.6.0)
+    mustermann (1.0.3)
+    rack (2.0.6)
+    rack-protection (2.0.5)
+      rack
+    rb-readline (0.5.5)
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+    whenever (0.9.7)
+      chronic (>= 0.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug (~> 10.0)
+  httparty
+  mongo
+  rb-readline (~> 0.5.5)
+  sinatra
+  whenever
+
+BUNDLED WITH
+   1.16.2
