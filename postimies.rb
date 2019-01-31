@@ -2,7 +2,7 @@ require 'sinatra/base'
 require 'byebug'
 require 'httparty'
 require 'json'
-AUTH_TOKEN = "xoxb-538199470724-538205125812-GrDcmofI4OjlPoUipCjidSEZ"
+AUTH_TOKEN = "xoxb-538199470724-538205125812-19Hsl21HRY4frx5UB1UphVJI"
 
 class Postimies < Sinatra::Base
   set(:method) do |method|
