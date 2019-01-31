@@ -4,7 +4,7 @@ require 'byebug'
 require 'mongo'
 require "rb-readline"
 
-AUTH_TOKEN = "xoxb-538199470724-538205125812-19Hsl21HRY4frx5UB1UphVJI"
+AUTH_TOKEN = "xoxb-538199470724-538205125812-QZitRnCSnNejNLckeAbJ3Cq2"
 
 def self.send(message, channel, mrkdwn = true)
   auth = "Bearer " + AUTH_TOKEN
